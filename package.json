@@ -1,0 +1,25 @@
+{
+  "name": "waitq-react",
+  "version": "1.0.0",
+  "description": "waitq React Library",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://waitq.sh",
+  "repository": {
+    "url": "https://github.com/yakubu-llc/waitq-react"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "waitq",
+    "react"
+  ],
+  "author": "kareem717",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
