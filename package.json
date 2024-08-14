@@ -1,5 +1,5 @@
 {
-  "name": "waitq-react",
+  "name": "waitq-js",
   "version": "1.0.0",
   "description": "waitq React Library",
   "main": "./dist/index.js",
@@ -14,7 +14,9 @@
   },
   "keywords": [
     "waitq",
-    "react"
+    "javascript",
+    "email",
+    "waitlist"
   ],
   "author": "kareem717",
   "license": "MIT",
