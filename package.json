@@ -11,7 +11,14 @@
   },
   "scripts": {
     "build": "tsup",
-    "test": "jest"
+    "clean": "rm -rf ./dist/",
+    "cm": "cz",
+    "lint": "eslint ./src/ --fix",
+    "prepare": "husky install",
+    "semantic-release": "semantic-release",
+    "test:watch": "jest --watch",
+    "test": "jest --coverage",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "waitq",
